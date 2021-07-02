@@ -1,0 +1,156 @@
+﻿<html>
+<head>
+<!--<meta> 标签提供了 HTML 文档的元数据。元数据不会显示在客户端，但是会被浏览器解析。-->
+<meta name="viewport" content="width=device-width, initial-scale=0.6, maximum-scale=0.6, minimum-scale=0.6, user-scalable=no" />
+<!--可以用来适配手机屏幕-->
+<title>个人简历</title>
+<link rel="stylesheet" type="text/css" href="CSS.css">
+<script type="text/javascript" src="submit.js"></script>
+</head>
+<body>
+<center>
+	<form action="" method="post" target="_self" name="form1">
+
+<table border="1" width=600>
+	<tr class="class7"><td class="class7" colspan=5><center><strong>个人简历</strong></center></td></tr>
+<tr>
+<td width="15%" class="class2">姓名：</td>
+<td class="class5">
+	<input type="text" id="name" value="curiosity" class="class4"></td> 
+<td width="15%" class="class2">性别：</td> 
+<td class="class5">
+	<input type="radio" name="sex" style="width:20%" value="男" checked>男
+	<input type="radio" name="sex" style="width:20%" value="女">女</td>
+<td rowspan=5 width="13%" class="class5"><img src="img/1.jpg" width="100%" id="photo" onclick="javascript:change()">
+<input type="file" accept="image/*"  name="img" class="class2" onchange="javascript:upload_img(this)"></td>
+</tr>
+<tr>
+<td class="class2">籍贯：</td>
+<td class="class4">
+	<select id="province" name="province">
+    	<!--<option>-请选择-</option>-->
+        <option>北京市</option>
+        <option>上海市</option>
+        <option>天津市</option>
+        <option>重庆市</option>
+        <option>河北省</option>
+        <option>山西省</option>
+        <option>内蒙古自治区</option>
+        <option>辽宁省</option>
+        <option>吉林省</option>
+        <option>黑龙江省</option>
+        <option>江苏省</option>
+        <option>浙江省</option>
+        <option>安徽省</option>
+        <option>福建省</option>
+        <option>江西省</option>
+        <option>山东省</option>
+        <option>河南省</option>
+        <option>湖北省</option>
+        <option>湖南省</option>
+        <option>广东省</option>
+        <option>广西壮族自治区</option>
+        <option>海南省</option>
+        <option>四川省</option>
+        <option>贵州省</option>
+        <option>云南省</option>
+        <option>西藏自治区</option>
+        <option selected>陕西省</option>
+        <option>甘肃省</option>
+        <option>宁夏回族自治区</option>
+        <option>青海省</option>
+        <option>新疆维吾尔族自治区</option>
+        <option>香港特别行政区</option>
+        <option>澳门特别行政区</option>
+        <option>台湾省</option>
+        <option>其它</option>
+    </select>
+</td> 
+<td class="class2">民族：</td> 
+<td class="class4">
+	<select id="national" class="class5"></select>
+</td> 
+</tr>
+<tr>
+ <td class="class2">出生年月：</td> <td class="class5"><input type="date" class="class4" value="2020-12-12" id="borthday"></td> 
+ <td class="class2">政治面貌：</td> 
+ <td class="class4">
+ 	<select class="class4" id="political">
+		<option>中共党员</option>
+		<option>预备党员</option>
+		<option selected>共青团员</option>
+		<option>民盟盟员</option>
+		<option>群众</option>
+	</select>
+</td>
+</tr>
+<tr>
+<td class="class2">学校：</td> <td class="class5"><input type="text" name="school" value="****大学" class="class4"></td> 
+<td class="class2">专业：</td> <td class="class5"><input type="text" name="special" value="计算机科学与技术" class="class4"></td> 
+</tr>
+<tr>
+<td class="class2">电话：</td> <td class="class5"><input type="text" name="telephone" value="1520*******" class="class4"></td> 
+<td class="class2">邮箱：</td> <td class="class5"><input type="text" name="email" value="curiosity******@aliyun.com" class="class4"></td> 
+</tr>
+	
+<tr class="class3">
+<td class="class7">兴趣爱好：</td> 
+<td colspan=4 class="class7">
+	<input type="checkbox" name="interest" value="足球"  class="class6" checked>足球
+	<input type="checkbox" name="interest" value="羽毛球"  class="class6" checked>羽毛球
+	<input type="checkbox" name="interest" value="音乐"  class="class6" checked>音乐
+	<input type="checkbox" name="interest" value="电影"  class="class6" >电影
+	<input type="checkbox" name="interest" value="旅行"  class="class6" checked>旅行
+	<input type="checkbox" name="interest" value="阅读" class="class6" >阅读
+</td>
+</tr>
+<tr class="class3">
+<td class="class2_2">主修课程：</td> <td colspan=4 class="class5"><textarea rows="6" name="major" placeholder="请输入内容" class="class4">
+数据结构、算法分析与设计、操作系统、面向对象程序设计、JAVA程序设计、计算机网络、数据库原理与应用、Web应用开发技术、软件工程、信息系统分析与设计、计算机专业英语；C语言程序设计、电路分析、模拟电子技术、数字逻辑、嵌入式系统、计算机组成原理、计算机体系结构、编译原理。</textarea></td>
+</tr>
+<tr class="class3">
+<td class="class2_2">校园经历：</td> <td colspan=4 class="class5"><textarea rows="6" name="skill" placeholder="请输入内容" class="class4">
+*********************
+*******************
+***********************
+*********************
+******************
+**********************
+********************
+*************************
+**************************
+</textarea></td>
+</tr>
+<tr class="class3">
+<td class="class2_2">项目经验：</td> <td colspan=4 class="class5"><textarea rows="6" name="item" placeholder="请输入内容" class="class4">
+**********************
+*****************
+********************
+*************
+********************
+***********************
+************************
+********************
+***********************
+</textarea></td>
+</tr>
+<tr class="class3">
+<td class="class2_2">职业技能：</td> <td colspan=4 class="class5"><textarea rows="6" name="skill" placeholder="请输入内容" class="class4">
+***********
+***************
+*******************
+******************
+**************
+*****************
+******************
+***************
+******************
+</textarea></td>
+</tr>
+</table>
+<button onclick="javascript:sub()" id="b1" class="class4">发送</button>
+<input type=reset id="reset" value="重填" class="class4">
+	</form>
+</center>
+</body>
+</html>
